@@ -49,6 +49,18 @@ Haskell
 
 ---
 
+C
+
+![C](images/c.png)
+
+---
+
 Json
 
 ![Json](images/json.png)
+
+---
+
+Zig
+
+![Zig](images/zig.png)
