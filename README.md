@@ -28,3 +28,27 @@ Colors should have the same semantics across languages marked as supported, with
 
 This theme is syntax only, so you can freely copy it into your settings as
 tokenColor Custumizations to use a different color theme instead of Quiet Light.
+
+## Screenshots
+
+Bash
+
+![Bash](images/bash.png)
+
+---
+
+Scala
+
+![Scala](images/scala.png)
+
+---
+
+Haskell
+
+![Haskell](images/haskell.png)
+
+---
+
+Json
+
+![Json](images/json.png)
