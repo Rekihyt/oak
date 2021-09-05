@@ -1,0 +1,31 @@
+{
+  "name": "oak",
+  "publisher": "Rekihyt",
+  "icon": "images/Oak.png",
+  "galleryBanner": {
+    "color": "#30B040",
+    "theme": "light"
+  },
+  "displayName": "Oak",
+  "description": "A theme based on trees.",
+  "version": "1.0.0",
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oak",
+        "uiTheme": "vs",
+        "path": "./themes/Oak-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rekihyt/oak.git"
+  }
+}
