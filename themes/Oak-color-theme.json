@@ -133,7 +133,8 @@
         "preprocessor",
 
         "constant.unit.elm",
-        "variable.other.object"
+        "variable.other.object",
+        "entity.name.tag.purescript"
       ],
       "settings": {
         "foreground": "#18bb85"

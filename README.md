@@ -4,8 +4,6 @@ Based on trees, water, and sky colors. Syntax highlighting only, using Quiet Lig
 
 Colors should have the same semantics across languages marked as supported, with the exception of punctuation.
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Rekihyt.Oak.svg?style=flat-square)
-
 ## Supported Languages
 
 - Javascript / HTML / CSS
