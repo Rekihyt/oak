@@ -6,15 +6,16 @@ Colors should have the same semantics across languages marked as supported, with
 
 ## Supported Languages
 
-- Javascript / HTML / CSS
+- Javascript/HTML/CSS
 - Python
-- Java / C#
+- Java/C#
 - C/C++
 - Rust
 - Go
 - Scala
-- Haskell / Purescript / Elm
+- Haskell/Purescript/Elm
 - Nim
+- Sh/Bash
 - Fish
 - Zig
 - Graphviz
@@ -37,6 +38,18 @@ Bash
 
 ---
 
+C
+
+![C](images/c.png)
+
+---
+
+Rust
+
+![Rust](images/rust.png)
+
+---
+
 Scala
 
 ![Scala](images/scala.png)
@@ -46,12 +59,6 @@ Scala
 Haskell
 
 ![Haskell](images/haskell.png)
-
----
-
-C
-
-![C](images/c.png)
 
 ---
 

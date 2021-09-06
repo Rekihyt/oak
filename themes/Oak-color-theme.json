@@ -322,7 +322,8 @@
         "entity.name.type.class.module.definition.erlang",
         "entity.name.import.go",
         "meta.import",
-        "entity.name.import"
+        "entity.name.import",
+        "meta.preprocessor.include.c"
       ],
       "settings": {
         "fontStyle": "",
