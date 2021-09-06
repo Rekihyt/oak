@@ -1,6 +1,7 @@
 # Oak
 
-Based on trees, water, and sky colors. Syntax highlighting only, using Quiet Light for background colors.
+Syntax theme is based on trees, water, and sky colors.
+Background and editor colors are based on Quiet Light.
 
 Colors should have the same semantics across languages marked as supported, with the exception of punctuation.
 
@@ -27,8 +28,8 @@ Colors should have the same semantics across languages marked as supported, with
 
 ## Customizing
 
-This theme is syntax only, so you can freely copy it into your settings as
-tokenColor Custumizations to use a different color theme instead of Quiet Light.
+This theme is mostly syntax, so you can copy it into your settings as
+tokenColor Custumizations to use a different editor theme other than Quiet Light.
 
 ## Screenshots
 
