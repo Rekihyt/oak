@@ -168,8 +168,7 @@
 
         "meta.function-call.generic",
         "keyword.operator.purescript",
-        "entity.other.attribute-name",
-        "variable.other.generic-type.purescript"
+        "entity.other.attribute-name"
       ],
       "settings": {
         "fontStyle": "",
@@ -255,7 +254,9 @@
         "meta.embedded.block",
         "punctuation.definition.entity",
         "entity.other.attribute-name.pseudo-element.css",
-        "meta.brace.round.js"
+        "meta.brace.round.js",
+        "meta.import.purescript",
+        "meta.declaration.exports.purescript"
       ],
       "settings": {
         "fontStyle": "",
@@ -270,7 +271,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#C0C0C0"
+        "foreground": "#A0A0A0"
       }
     },
 
