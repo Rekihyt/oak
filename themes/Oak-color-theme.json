@@ -168,7 +168,9 @@
         "keyword.operator.arithmetic.scala",
 
         "meta.function-call.generic",
-        "keyword.operator.purescript"
+        "keyword.operator.purescript",
+        "entity.other.attribute-name",
+        "variable.other.generic-type.purescript"
       ],
       "settings": {
         "fontStyle": "",
@@ -323,7 +325,9 @@
         "entity.name.import.go",
         "meta.import",
         "entity.name.import",
-        "meta.preprocessor.include.c"
+        "meta.preprocessor.include.c",
+        "meta.kind-signature",
+        "meta.foreign.data"
       ],
       "settings": {
         "fontStyle": "",
@@ -351,13 +355,13 @@
     "terminal.ansiWhite": "#FFFFFF",
     "terminal.ansiBrightWhite": "#FFFFFF",
 
-    "errorLens.hintBackgroundLight": "#30B04010",
+    "errorLens.hintBackgroundLight": "#30B04020",
     "errorLens.hintForegroundLight": "#30B040",
-    "errorLens.infoBackgroundLight": "#7cace010",
+    "errorLens.infoBackgroundLight": "#7cace020",
     "errorLens.infoForegroundLight": "#7cace0",
-    "errorLens.warningBackgroundLight": "#cfa95710",
+    "errorLens.warningBackgroundLight": "#cfa95720",
     "errorLens.warningForegroundLight": "#cfa957",
-    "errorLens.errorBackgroundLight": "#b4488210",
+    "errorLens.errorBackgroundLight": "#b4488215",
     "errorLens.errorForegroundLight": "#b44882",
     "editor.wordHighlightStrongBackground": "#FFFFFF",
     "editor.lineHighlightBackground": "#ffffff",
@@ -377,7 +381,7 @@
 
     "editorInlayHint.foreground": "#7cace0",
     "editorInfo.foreground": "#7cace0",
-    "editorWarn.foreground": "#ffe1a2",
+    "editorWarning.foreground": "#ffe1a2",
     "editorError.foreground": "#b44882",
 
     "diffEditor.insertedTextBackground": "#30B04015",
