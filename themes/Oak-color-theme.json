@@ -88,7 +88,6 @@
         "meta.declaration.adt.idris",
         "storage.type.class.python",
         "storage.type.data.purescript",
-        "punctuation.separator.pipe.purescript",
         "storage.type.js",
 
         "meta.bracket.scala",
@@ -267,8 +266,7 @@
       "name": "Light Punctuation",
       "scope": [
         "keyword.other.unit.hexadecimal",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.begin.html"
+        "punctuation.definition.tag.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -289,8 +287,11 @@
         "punctuation.elm",
         "punctuation.bracket.elm",
         "punctuation.separator.comma.purescript",
-        "punctuation.section.brackets.begin.list.dhall",
-        "punctuation.section.brackets.end.list.dhall"
+        "punctuation.section.brackets.dhall",
+        "keyword.operator.type.record",
+        "punctuation.separator.pipe.purescript",
+        "meta.type-signature.purescript",
+        "keyword.other.double-colon.purescript"
       ],
       "settings": {
         "fontStyle": "",
