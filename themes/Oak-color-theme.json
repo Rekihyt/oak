@@ -399,6 +399,7 @@
     "editorInfo.foreground": "#7cace0",
     "editorWarning.foreground": "#ffe1a2",
     "editorError.foreground": "#b44882",
+    "activityBarBadge.foreground": "#FFFFFF",
 
     "diffEditor.insertedTextBackground": "#30B04015",
     "diffEditor.removedTextBackground": "#b4488215",

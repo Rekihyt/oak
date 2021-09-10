@@ -18,5 +18,15 @@
         "fontStyle": ""
       }
     }
-  ]
+  ],
+  "colors": {
+    "statusBar.background": "#b44882",
+    "list.focusBackground": "#b44882",
+    "badge.background": "#b44882",
+    "activityBar.activeFocusBorder": "#b44882",
+    "banner.iconForeground": "#b44882",
+    "breadcrumb.background": "#b4488220",
+    "editor.foldBackground": "#b4488220",
+    "editorGutter.modifiedBackground": "#b44882"
+  }
 }

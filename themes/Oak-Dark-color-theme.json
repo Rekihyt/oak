@@ -88,6 +88,39 @@
       }
     },
     {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other.object",
+        "source.makefile",
+        "source.groovy.embedded",
+        "meta.quasi-quotation.haskell",
+        "support.variable.js",
+        "support.constant.nim",
+        "constant.character.escape",
+        "constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#6e6040",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Enums",
+      "scope": [
+        "variable.other.enummember",
+        "entity.other.attribute-name.class.css",
+        "variable.other.object.property",
+        "variable.other.property",
+        "meta.attribute.href.hamlet",
+        "keyword.operator.prefix.hash.haskell"
+      ],
+      "settings": {
+        "foreground": "#b18b3a",
+        "fontStyle": ""
+      }
+    },
+    {
       "scope": [
         "meta.block.c",
         "source",
@@ -267,7 +300,16 @@
     }
   ],
   "colors": {
+    "editor.background": "#202020",
     "terminal.foreground": "#505050",
+    "terminal.background": "#202020",
+    "panel.background": "#151515",
+    "editorPane.background": "#151515",
+    "debugToolBar.background": "#151515",
+    "menu.background": "#252526",
+    "sideBarSectionHeader.background": "#101010",
+    "sideBar.background": "#1A1A1A",
+    "activityBarBadge.foreground": "#FFE1A2",
 
     "terminal.ansiBlack": "#FFFFFF",
     "terminal.ansiBrightBlack": "#FFFFFF",
@@ -295,10 +337,9 @@
     "errorLens.errorBackgroundLight": "#b4488215",
     "errorLens.errorForegroundLight": "#b44882",
     "editor.inactiveSelectionBackground": "#3A3D41",
-    "menu.background": "#252526",
     "statusBarItem.remoteForeground": "#FFF",
     "ports.iconRunningProcessForeground": "#369432",
-    "sideBarSectionHeader.background": "#0000",
+    "sideBar.dropBackground": "#101010",
     "sideBarSectionHeader.border": "#ccc3",
     "tab.lastPinnedBorder": "#ccc3",
     "list.activeSelectionIconForeground": "#FFF",
@@ -327,23 +368,22 @@
     "pickerGroup.border": "#749351",
     "list.activeSelectionForeground": "#6c6c6c",
     "quickInputList.focusBackground": "#CADEB9",
-    "list.hoverBackground": "#e0e0e0",
+    "list.hoverBackground": "#252526",
     "list.activeSelectionBackground": "#c4d9b1",
-    "list.inactiveSelectionBackground": "#d3dbcd",
+    "list.inactiveSelectionBackground": "#252526",
     "list.highlightForeground": "#9779df",
-    "selection.background": "#C9D0D9",
+    "selection.background": "#252526",
     "editorWhitespace.foreground": "#AAAAAA",
     "minimap.selectionHighlight": "#C9D0D9",
-    "panel.background": "#F5F5F5",
     "inputOption.activeBorder": "#adafb7",
-    "dropdown.background": "#F5F5F5",
+    "dropdown.background": "#252526",
     "peekViewEditor.matchHighlightBackground": "#458FDD50",
-    "peekViewTitle.background": "#F2F8FC",
-    "peekViewEditor.background": "#F2F8FC",
-    "peekViewResult.background": "#F2F8FC",
+    "peekViewTitle.background": "#252526",
+    "peekViewEditor.background": "#252526",
+    "peekViewResult.background": "#252526",
     "peekView.border": "#9779df80",
     "peekViewResult.matchHighlightBackground": "#458FDD60",
-    "welcomePage.tileBackground": "#f0f0f7",
+    "welcomePage.tileBackground": "#252526",
     "statusBar.noFolderBackground": "#9779df80",
     "statusBar.debuggingBackground": "#9779df80",
     "statusBarItem.remoteBackground": "#9779df",
@@ -352,7 +392,7 @@
     "button.background": "#9779df",
     "editorGroup.dropBackground": "#C9D0D988",
     "inputValidation.infoBorder": "#4ec1e5",
-    "inputValidation.infoBackground": "#f2fcff",
+    "inputValidation.infoBackground": "#252526",
     "inputValidation.warningBackground": "#ffe1a240",
     "inputValidation.warningBorder": "#ffe1a250",
     "inputValidation.errorBackground": "#b4488240",
@@ -367,7 +407,6 @@
     "editor.findMatchHighlightBackground": "#FFE1A240",
     "editor.findRangeHighlightBackground": "#FFE1A240",
     "activityBarBadge.background": "#458FDD",
-    "editor.background": "#202020",
     "editor.foreground": "#ffffff",
     "editorIndentGuide.activeBackground": "#909090",
     "editorIndentGuide.background": "#404040",
@@ -377,7 +416,6 @@
     "settings.numberInputBackground": "#111111",
     "settings.textInputBackground": "#111111",
     "sideBarTitle.foreground": "#EEEEEE",
-    "sideBar.background": "#000000",
     "sideBar.foreground": "#EEEEEE",
     "tab.activeBackground": "#000000",
     "tab.inactiveBackground": "#202020",
