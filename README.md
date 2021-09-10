@@ -5,6 +5,9 @@ Background and editor colors are based on Quiet Light.
 
 Colors should have the same semantics across languages marked as supported, with the exception of punctuation.
 
+**Note**: Relies on semantic highlighting.
+Make sure to have `"semanticHighlighting": true` in your `"editor.tokenColorCustomizations"`.
+
 ## Supported Languages
 
 - Javascript/HTML/CSS
@@ -13,23 +16,20 @@ Colors should have the same semantics across languages marked as supported, with
 - C/C++
 - Rust
 - Go
+- Sh/Bash
+- Fish
 - Scala
 - Haskell/Purescript/Elm
 - Nim
-- Sh/Bash
-- Fish
 - Zig
 - Graphviz
-
-## Partial Support
-
 - Erlang
 - Elixir
 
 ## Customizing
 
 This theme is mostly syntax, so you can copy it into your settings as
-tokenColor Custumizations to use a different editor theme other than Quiet Light.
+tokenColor Customizations to use a different editor theme other than Quiet Light.
 
 ## Screenshots
 

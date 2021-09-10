@@ -233,7 +233,7 @@
         "keyword.operator.address"
       ],
       "settings": {
-        "foreground": "#5086ce",
+        "foreground": "#c26f9b",
         "fontStyle": ""
       }
     },
@@ -303,8 +303,6 @@
         "meta.type-signature.purescript",
         "keyword.other.double-colon.purescript",
         "keyword.operator.list.shell",
-        "keyword.operator.access.dot",
-        "keyword.operator.key-value",
         "punctuation.other.period.go"
       ],
       "settings": {
