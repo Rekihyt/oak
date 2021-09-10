@@ -1,0 +1,22 @@
+{
+  "name": "Oak-Cherry",
+  "type": "light",
+  "include": "./Oak-Dark-color-theme.json",
+  "tokenColors": [
+    {
+      "name": "Highlights",
+      "scope": [
+        "punctuation.definition.lifetime.rust",
+        "keyword.operator.borrow.and.rust",
+        "keyword.operator.dereference.rust",
+        "meta.expression.receive",
+        "punctuation.definition.variable.shell",
+        "keyword.operator.address"
+      ],
+      "settings": {
+        "foreground": "#c26f9b",
+        "fontStyle": ""
+      }
+    }
+  ]
+}
