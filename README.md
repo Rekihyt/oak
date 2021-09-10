@@ -6,7 +6,7 @@ Background and editor colors are based on Quiet Light.
 Colors should have the same semantics across languages marked as supported, with the exception of punctuation.
 
 **Note**: Relies on semantic highlighting.
-Make sure to have `"semanticHighlighting": true` in your `"editor.tokenColorCustomizations"`.
+Make sure to not have `"semanticHighlighting": false` in your `"editor.tokenColorCustomizations"` (it is set to true in the theme).
 
 ## Supported Languages
 
