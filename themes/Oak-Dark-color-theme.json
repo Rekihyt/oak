@@ -97,7 +97,8 @@
         "support.variable.js",
         "support.constant.nim",
         "constant.character.escape",
-        "constant.other.placeholder"
+        "constant.other.placeholder",
+        "variable.language"
       ],
       "settings": {
         "foreground": "#8d6e46",
@@ -263,7 +264,7 @@
   ],
   "colors": {
     "editor.background": "#202020",
-    "terminal.foreground": "#505050",
+    "terminal.foreground": "#FFFFFF",
     "terminal.background": "#202020",
     "panel.background": "#151515",
     "editorPane.background": "#151515",
@@ -330,11 +331,11 @@
     "banner.iconForeground": "#009040",
 
     "breadcrumb.background": "#181818",
-    "activityBar.foreground": "#30B040",
-    "activityBar.inactiveForeground": "#FFE1A2",
-    "tab.activeForeground": "#009040",
-    "tab.hoverForeground": "#30B040",
-    "tab.inactiveForeground": "#FFE1A2",
+    "activityBar.foreground": "#FFE1A2",
+    "activityBar.inactiveForeground": "#30B040",
+    "tab.activeForeground": "#FFE1A2",
+    "tab.hoverForeground": "#FFE1A2",
+    "tab.inactiveForeground": "#009040",
     // "tab.fore"
     "input.background": "#101010",
 

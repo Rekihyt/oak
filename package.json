@@ -16,6 +16,143 @@
     "vscode": "^1.60.0"
   },
   "contributes": {
+    "colors": [
+      {
+        "id": "functions",
+        "description": "Functions, active text.",
+        "defaults": {
+          "dark": "#30B040",
+          "light": "#30B040",
+          "highContrast": "#30B040"
+        }
+      },
+      {
+        "id": "functions.dark",
+        "description": "A similar but contrasting color.",
+        "defaults": {
+          "dark": "#009040",
+          "light": "#009040",
+          "highContrast": "#009040"
+        }
+      },
+      {
+        "id": "meta",
+        "description": "Imports, meta-programming.",
+        "defaults": {
+          "dark": "#9779df",
+          "light": "#9779df",
+          "highContrast": "#9779df"
+        }
+      },
+      {
+        "id": "meta.light",
+        "description": "A similar but contrasting color.",
+        "defaults": {
+          "dark": "#a493cc",
+          "light": "#a493cc",
+          "highContrast": "#a493cc"
+        }
+      },
+      {
+        "id": "highlight",
+        "description": "Special syntax, border colors.",
+        "defaults": {
+          "dark": "#c26f9b",
+          "light": "#c26f9b",
+          "highContrast": "#c26f9b"
+        }
+      },
+      {
+        "id": "highlight.dark",
+        "description": "A similar but contrasting color.",
+        "defaults": {
+          "dark": "#b44882",
+          "light": "#b44882",
+          "highContrast": "#b44882"
+        }
+      },
+      {
+        "id": "keywords",
+        "description": "Built-is, operators, icon backgrounds.",
+        "defaults": {
+          "dark": "#458fdd",
+          "light": "#5086ce",
+          "highContrast": "#5086ce"
+        }
+      },
+      {
+        "id": "keywords.semi",
+        "description": "Function params, colorful punctuation.",
+        "defaults": {
+          "dark": "#49b4be",
+          "light": "#49b4be",
+          "highContrast": "#49b4be"
+        }
+      },
+      {
+        "id": "keywords.semi.bright",
+        "description": "A similar but contrasting color.",
+        "defaults": {
+          "dark": "#74c9d1",
+          "light": "#74c9d1",
+          "highContrast": "#74c9d1"
+        }
+      },
+      {
+        "id": "types",
+        "description": "Types, anything static.",
+        "defaults": {
+          "dark": "#18bb85",
+          "light": "#28D69C",
+          "highContrast": "#28D69C"
+        }
+      },
+      {
+        "id": "variables",
+        "description": "Assignable stuff.",
+        "defaults": {
+          "dark": "#8d6e46",
+          "light": "#8a671e",
+          "highContrast": "#8a671e"
+        }
+      },
+      {
+        "id": "literals",
+        "description": "Strings, numeric and other literals.",
+        "defaults": {
+          "dark": "#ffe1a2",
+          "light": "#cfa957",
+          "highContrast": "#ffe1a2"
+        }
+      },
+      {
+        "id": "punctuation",
+        "description": "Syntax that less meaningful.",
+        "defaults": {
+          "dark": "#ffffff",
+          "light": "#707070",
+          "highContrast": "#ffffff"
+        }
+      },
+      {
+        "id": "punctuation.light",
+        "description": "Boilerplate syntax.",
+        "defaults": {
+          "dark": "#707070",
+          "light": "#A0A0A0",
+          "highContrast": "#A0A0A0"
+        }
+      },
+      {
+        "id": "error",
+        "description": "Foreground for errors and deletes.",
+        "defaults": {
+          "dark": "#cf8282",
+          "light": "#db7f87",
+          "highContrast": "#cf8282"
+        }
+      }
+    ],
     "themes": [
       {
         "label": "Oak",

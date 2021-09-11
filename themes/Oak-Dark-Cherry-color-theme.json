@@ -11,7 +11,8 @@
         "keyword.operator.dereference.rust",
         "meta.expression.receive",
         "punctuation.definition.variable.shell",
-        "keyword.operator.address"
+        "keyword.operator.address",
+        "keyword.operator.question"
       ],
       "settings": {
         "foreground": "#c26f9b",
@@ -27,6 +28,7 @@
     "activityBar.activeBorder": "#b44882",
     "tab.hoverForeground": "#b44882",
     "activityBar.foreground": "#c26f9b",
+
     "editorError.foreground": "#cf8282",
     "errorForeground": "#cf8282"
   }
