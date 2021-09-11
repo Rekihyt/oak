@@ -332,7 +332,7 @@
 
     "breadcrumb.background": "#181818",
     "activityBar.foreground": "#FFE1A2",
-    "activityBar.inactiveForeground": "#30B040",
+    "activityBar.inactiveForeground": "#009040",
     "tab.activeForeground": "#FFE1A2",
     "tab.hoverForeground": "#FFE1A2",
     "tab.inactiveForeground": "#009040",
@@ -373,7 +373,7 @@
     "inputValidation.warningBorder": "#ffe1a250",
     "inputValidation.errorBackground": "#b4488240",
     "inputValidation.errorBorder": "#b4488250",
-    "errorForeground": "#b4488280",
+    "errorForeground": "#cf8282",
     "progressBar.background": "#9779df",
     "walkThrough.embeddedEditorBackground": "#00000014",
 

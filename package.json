@@ -3,12 +3,12 @@
   "publisher": "Rekihyt",
   "icon": "images/Oak.png",
   "galleryBanner": {
-    "color": "#C0C0C0",
+    "color": "#E0E0E0",
     "theme": "light"
   },
   "displayName": "Oak",
   "description": "A theme based on trees.",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "categories": [
     "Themes"
   ],
@@ -18,7 +18,7 @@
   "contributes": {
     "colors": [
       {
-        "id": "functions",
+        "id": "oak.functions",
         "description": "Functions, active text.",
         "defaults": {
           "dark": "#30B040",
@@ -27,7 +27,7 @@
         }
       },
       {
-        "id": "functions.dark",
+        "id": "oak.functions.dark",
         "description": "A similar but contrasting color.",
         "defaults": {
           "dark": "#009040",
@@ -36,7 +36,7 @@
         }
       },
       {
-        "id": "meta",
+        "id": "oak.meta",
         "description": "Imports, meta-programming.",
         "defaults": {
           "dark": "#9779df",
@@ -45,7 +45,7 @@
         }
       },
       {
-        "id": "meta.light",
+        "id": "oak.meta.light",
         "description": "A similar but contrasting color.",
         "defaults": {
           "dark": "#a493cc",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "highlight",
+        "id": "oak.highlight",
         "description": "Special syntax, border colors.",
         "defaults": {
           "dark": "#c26f9b",
@@ -63,7 +63,7 @@
         }
       },
       {
-        "id": "highlight.dark",
+        "id": "oak.highlight.dark",
         "description": "A similar but contrasting color.",
         "defaults": {
           "dark": "#b44882",
@@ -72,7 +72,7 @@
         }
       },
       {
-        "id": "keywords",
+        "id": "oak.keywords",
         "description": "Built-is, operators, icon backgrounds.",
         "defaults": {
           "dark": "#458fdd",
@@ -81,7 +81,7 @@
         }
       },
       {
-        "id": "keywords.semi",
+        "id": "oak.keywords.semi",
         "description": "Function params, colorful punctuation.",
         "defaults": {
           "dark": "#49b4be",
@@ -90,7 +90,7 @@
         }
       },
       {
-        "id": "keywords.semi.bright",
+        "id": "oak.keywords.semi.bright",
         "description": "A similar but contrasting color.",
         "defaults": {
           "dark": "#74c9d1",
@@ -99,7 +99,7 @@
         }
       },
       {
-        "id": "types",
+        "id": "oak.types",
         "description": "Types, anything static.",
         "defaults": {
           "dark": "#18bb85",
@@ -108,7 +108,7 @@
         }
       },
       {
-        "id": "variables",
+        "id": "oak.variables",
         "description": "Assignable stuff.",
         "defaults": {
           "dark": "#8d6e46",
@@ -117,7 +117,7 @@
         }
       },
       {
-        "id": "literals",
+        "id": "oak.literals",
         "description": "Strings, numeric and other literals.",
         "defaults": {
           "dark": "#ffe1a2",
@@ -126,7 +126,7 @@
         }
       },
       {
-        "id": "punctuation",
+        "id": "oak.punctuation",
         "description": "Syntax that less meaningful.",
         "defaults": {
           "dark": "#ffffff",
@@ -135,7 +135,7 @@
         }
       },
       {
-        "id": "punctuation.light",
+        "id": "oak.punctuation.light",
         "description": "Boilerplate syntax.",
         "defaults": {
           "dark": "#707070",
@@ -144,7 +144,7 @@
         }
       },
       {
-        "id": "error",
+        "id": "oak.error",
         "description": "Foreground for errors and deletes.",
         "defaults": {
           "dark": "#cf8282",
