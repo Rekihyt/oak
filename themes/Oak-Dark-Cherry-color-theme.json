@@ -21,12 +21,13 @@
   ],
   "colors": {
     "statusBar.background": "#b44882",
-    "list.focusBackground": "#b44882",
-    "badge.background": "#b44882",
-    "activityBar.activeFocusBorder": "#b44882",
-    "banner.iconForeground": "#b44882",
-    "breadcrumb.background": "#b4488220",
-    "editor.foldBackground": "#b4488220",
-    "editorGutter.modifiedBackground": "#b44882"
+    "list.focusBackground": "#c26f9b",
+    "panelTitle.activeBorder": "#b44882",
+    "tab.activeForeground": "#c26f9b",
+    "activityBar.activeBorder": "#b44882",
+    "tab.hoverForeground": "#b44882",
+    "activityBar.foreground": "#c26f9b",
+    "editorError.foreground": "#cf8282",
+    "errorForeground": "#cf8282"
   }
 }

@@ -410,7 +410,26 @@
     "editor.selectionHighlightBackground": "#5086ce10",
     "editor.wordHighlightBorder": "#5086ce50",
     "editor.wordHighlightStrongBorder": "#5086ce60",
-    "editor.wordHighlightBackground": "#FFFFFF00",
+    "editor.wordHighlightBackground": "#AAAAAA",
+
+    "editor.hoverHighlightBackground": "#AAAAAAE0",
+    "list.dropBackground": "#AAAAAA",
+    "settings.numberInputBackground": "#AAAAAA",
+    // "tab.activeBackground": "#AAAAAA",
+    "gitDecoration.deletedResourceForeground": "#cf8282",
+
+    "list.focusBackground": "#00904020",
+    "activityBar.activeFocusBorder": "#009040",
+    "banner.iconForeground": "#009040",
+
+    "activityBar.inactiveForeground": "#FFE1A2",
+    // "tab.activeForeground": "#009040",
+    // "tab.hoverForeground": "#30B040",
+    // "tab.inactiveForeground": "#FFE1A2",
+    // "tab.fore"
+
+    "editorGutter.modifiedBackground": "#FFE1A2",
+    "sideBar.dropBackground": "#AAAAAA",
 
     "statusBar.background": "#5086ce",
     "focusBorder": "#A6B39B",
