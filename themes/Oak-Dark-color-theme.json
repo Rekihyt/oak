@@ -290,6 +290,7 @@
     "terminal.ansiBrightCyan": "#74c9d1",
     "terminal.ansiWhite": "#000000",
     "terminal.ansiBrightWhite": "#303030",
+    "terminal.selectionBackground": "#a0bedf40",
 
     "errorLens.hintBackgroundLight": "#30B04020",
     "errorLens.hintForegroundLight": "#30B040",

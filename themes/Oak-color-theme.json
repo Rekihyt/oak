@@ -306,7 +306,7 @@
         "keyword.operator.access.dot",
         "keyword.operator.key-value",
         "punctuation.other.period.go",
-        "punctuation.definition.interpolation"
+        ""
       ],
       "settings": {
         "fontStyle": "",
@@ -359,11 +359,11 @@
     "terminal.ansiBlack": "#000000",
     "terminal.ansiBrightBlack": "#303030",
     "terminal.ansiRed": "#c26f9b",
-    "terminal.ansiBrightRed": "highlight.dark",
+    "terminal.ansiBrightRed": "#b44882",
     "terminal.ansiGreen": "#52B84E",
     "terminal.ansiBrightGreen": "#30B040",
-    "terminal.ansiYellow": "#cfa957",
-    "terminal.ansiBrightYellow": "#FFE1A2",
+    "terminal.ansiYellow": "#8a671e",
+    "terminal.ansiBrightYellow": "#cfa957",
     "terminal.ansiBlue": "#5086ce",
     "terminal.ansiBrightBlue": "#7cace0",
     "terminal.ansiMagenta": "#9779df",
@@ -372,6 +372,7 @@
     "terminal.ansiBrightCyan": "#74c9d1",
     "terminal.ansiWhite": "#FFFFFF",
     "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.selectionBackground": "#a0bedf40",
 
     "errorLens.hintBackgroundLight": "#30B04020",
     "errorLens.hintForegroundLight": "#30B040",
