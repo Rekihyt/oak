@@ -187,13 +187,16 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#8a671e",
+        "foreground": "#8f6836",
         "fontStyle": ""
       }
     },
     {
-      "name": "Enums",
+      "name": "Constants",
       "scope": [
+        "source",
+        "constant.other",
+        "variable.other.constant",
         "variable.other.enummember",
         "entity.other.attribute-name.class.css",
         "variable.other.object.property",
@@ -202,7 +205,7 @@
         "keyword.operator.prefix.hash.haskell"
       ],
       "settings": {
-        "foreground": "#8a671e",
+        "foreground": "#aa875a",
         "fontStyle": ""
       }
     },
@@ -240,7 +243,6 @@
     {
       "name": "Punctuation",
       "scope": [
-        "source",
         "punctuation",
         "meta.block.c",
         "entity.name.operator.cpp",
@@ -345,7 +347,8 @@
         "meta.kind-signature",
         "meta.foreign.data",
         "entity.name.type.class.module",
-        "meta.use"
+        "meta.use",
+        "entity.name.type.module"
       ],
       "settings": {
         "fontStyle": "",

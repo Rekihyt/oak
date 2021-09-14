@@ -101,13 +101,15 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#8d6e46",
+        "foreground": "#af854f",
         "fontStyle": ""
       }
     },
     {
       "name": "Enums",
       "scope": [
+        "source",
+        "variable.other.constant",
         "variable.other.enummember",
         "entity.other.attribute-name.class.css",
         "variable.other.object.property",
@@ -116,7 +118,7 @@
         "keyword.operator.prefix.hash.haskell"
       ],
       "settings": {
-        "foreground": "#8d6e46",
+        "foreground": "#bb9c77",
         "fontStyle": ""
       }
     },
@@ -229,7 +231,6 @@
     {
       "name": "Punctuation",
       "scope": [
-        "source",
         "punctuation",
         "meta.block.c",
         "entity.name.operator.cpp",
