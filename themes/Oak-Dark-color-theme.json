@@ -37,7 +37,6 @@
         "support.constant.core.rust",
         "storage.class.std.rust",
         "entity.other.inherited-class.haskell",
-        "constant.character.escape",
         "constant.other.haskell",
         "entity.other.inherited-class.idris",
         "constant.other.idris",
@@ -96,8 +95,6 @@
         "meta.quasi-quotation.haskell",
         "support.variable.js",
         "support.constant.nim",
-        "constant.character.escape",
-        "constant.other.placeholder",
         "variable.language"
       ],
       "settings": {
@@ -119,13 +116,6 @@
       ],
       "settings": {
         "foreground": "#bb9c77",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["keyword.other.unit.hexadecimal"],
-      "settings": {
-        "foreground": "#707070",
         "fontStyle": ""
       }
     },
@@ -261,6 +251,19 @@
         "fontStyle": "",
         "foreground": "#FFFFFF"
       }
+    },
+    {
+      "name": "Light Punctuation",
+      "scope": [
+        "keyword.other.unit.hexadecimal",
+        "punctuation.definition.tag.html",
+        "constant.character.escape",
+        "constant.other.placeholder"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#707070"
+      }
     }
   ],
   "colors": {
@@ -293,14 +296,14 @@
     "terminal.ansiBrightWhite": "#303030",
     "terminal.selectionBackground": "#FFE1A220",
 
-    "errorLens.hintBackgroundLight": "#30B04020",
-    "errorLens.hintForegroundLight": "#30B040",
-    "errorLens.infoBackgroundLight": "#7cace020",
-    "errorLens.infoForegroundLight": "#7cace0",
-    "errorLens.warningBackgroundLight": "#FFE1A220",
-    "errorLens.warningForegroundLight": "#FFE1A2",
-    "errorLens.errorBackgroundLight": "#b4488215",
-    "errorLens.errorForegroundLight": "#b44882",
+    "errorLens.hintBackground": "#30B04020",
+    "errorLens.hintForeground": "#30B040",
+    "errorLens.infoBackground": "#7cace020",
+    "errorLens.infoForeground": "#7cace0",
+    "errorLens.warningBackground": "#FFE1A220",
+    "errorLens.warningForeground": "#FFE1A2",
+    "errorLens.errorBackground": "#b4488215",
+    "errorLens.errorForeground": "#b44882",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "statusBarItem.remoteForeground": "#FFF",
     "ports.iconRunningProcessForeground": "#009040",

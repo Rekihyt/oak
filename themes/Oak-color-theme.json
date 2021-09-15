@@ -182,12 +182,10 @@
         "meta.quasi-quotation.haskell",
         "support.variable.js",
         "support.constant.nim",
-        "constant.character.escape",
-        "constant.other.placeholder",
         "variable.language"
       ],
       "settings": {
-        "foreground": "#8f6836",
+        "foreground": "#ac6810",
         "fontStyle": ""
       }
     },
@@ -205,7 +203,7 @@
         "keyword.operator.prefix.hash.haskell"
       ],
       "settings": {
-        "foreground": "#aa875a",
+        "foreground": "#9b7d56",
         "fontStyle": ""
       }
     },
@@ -278,7 +276,9 @@
       "name": "Light Punctuation",
       "scope": [
         "keyword.other.unit.hexadecimal",
-        "punctuation.definition.tag.html"
+        "punctuation.definition.tag.html",
+        "constant.character.escape",
+        "constant.other.placeholder"
       ],
       "settings": {
         "fontStyle": "",
