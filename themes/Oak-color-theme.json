@@ -199,7 +199,7 @@
         "variable.type.elm"
       ],
       "settings": {
-        "foreground": "#18bb85"
+        "foreground": "#09c284"
       }
     },
     {
@@ -251,7 +251,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#a06c28",
+        "foreground": "#9e6f32",
         "fontStyle": ""
       }
     },

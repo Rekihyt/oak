@@ -27,14 +27,11 @@
   ],
   "colors": {
     "statusBar.background": "#b44882",
-    "list.focusBackground": "#c26f9b",
+    // "list.focusBackground": "#c26f9b",
     // "panelTitle.activeBorder": "#b44882",
     "tab.activeForeground": "#c26f9b",
     // "activityBar.activeBorder": "#b44882",
     "tab.hoverForeground": "#b44882",
-    "activityBar.foreground": "#c26f9b",
-
-    "editorError.foreground": "#cf8282",
-    "errorForeground": "#cf8282"
+    "activityBar.foreground": "#c26f9b"
   }
 }
