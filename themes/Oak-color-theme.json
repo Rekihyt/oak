@@ -414,9 +414,9 @@
     "editor.selectionBackground": "#a0bedf40",
     "editor.selectionHighlightBorder": "#5086ce40",
     "editor.selectionHighlightBackground": "#5086ce10",
-    "editor.wordHighlightBorder": "#5086ce50",
-    "editor.wordHighlightStrongBorder": "#5086ce60",
-    "editor.wordHighlightBackground": "#D0D0D0",
+    "editor.wordHighlightBorder": "#a0bedf40",
+    "editor.wordHighlightStrongBorder": "#a0bedf50",
+    "editor.wordHighlightBackground": "#a0bedf10",
 
     "editor.hoverHighlightBackground": "#a0bedf30",
     "list.dropBackground": "#D0D0D0",

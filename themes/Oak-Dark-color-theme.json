@@ -291,7 +291,7 @@
     "terminal.ansiBrightCyan": "#74c9d1",
     "terminal.ansiWhite": "#000000",
     "terminal.ansiBrightWhite": "#303030",
-    "terminal.selectionBackground": "#a0bedf40",
+    "terminal.selectionBackground": "#FFE1A220",
 
     "errorLens.hintBackgroundLight": "#30B04020",
     "errorLens.hintForegroundLight": "#30B040",
@@ -321,12 +321,12 @@
     "editorGutter.modifiedBackground": "#FFE1A2",
     "editorOverviewRuler.modifiedForeground": "#FFE1A280",
 
-    "editor.selectionBackground": "#a0bedf40",
-    "editor.selectionHighlightBorder": "#458FDD40",
-    "editor.selectionHighlightBackground": "#458FDD10",
-    "editor.wordHighlightBorder": "#458FDD50",
-    "editor.wordHighlightStrongBorder": "#458FDD60",
-    "editor.wordHighlightBackground": "#151515",
+    "editor.selectionBackground": "#FFE1A220",
+    "editor.selectionHighlightBorder": "#FFE1A240",
+    "editor.selectionHighlightBackground": "#FFE1A210",
+    "editor.wordHighlightBorder": "#FFE1A240",
+    "editor.wordHighlightStrongBorder": "#FFE1A250",
+    "editor.wordHighlightBackground": "#FFE1A215",
 
     "list.focusBackground": "#00904020",
     "activityBar.activeFocusBorder": "#009040",
