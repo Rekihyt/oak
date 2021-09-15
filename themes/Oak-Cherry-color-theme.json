@@ -6,13 +6,18 @@
     {
       "name": "Highlights",
       "scope": [
-        "punctuation.definition.lifetime.rust",
+        "keyword.declaration.volatile.scala",
+        "keyword.operator.address",
+        "keyword.operator.arrow",
         "keyword.operator.borrow.and.rust",
         "keyword.operator.dereference.rust",
+        "keyword.operator.other.elixir",
+        "keyword.operator.question",
         "meta.expression.receive",
+        "punctuation.definition.lifetime.rust",
         "punctuation.definition.variable.shell",
-        "keyword.operator.address",
-        "keyword.operator.question"
+        "punctuation.separator.clause-head-body",
+        "storage.type.function.arrow.java"
       ],
       "settings": {
         "foreground": "#c26f9b",
