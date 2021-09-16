@@ -216,6 +216,7 @@
         "entity.other.attribute-name.class.css",
         "keyword.operator.prefix.hash.haskell",
         "meta.attribute.href.hamlet",
+        "meta.block",
         "source",
         "variable.other.constant",
         "variable.other.enummember",
@@ -235,7 +236,6 @@
         "entity.other.attribute-name.pseudo-element.css",
         "keyword.operator.namespace",
         "keyword.other.double-colon.haskell",
-        "meta.block.c",
         "meta.brace.round.js",
         "meta.brace",
         "meta.bracket.square.access.cpp",
@@ -268,7 +268,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#707070"
+        "foreground": "#C0C0C0"
       }
     }
   ],
