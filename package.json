@@ -8,7 +8,7 @@
   },
   "displayName": "Oak",
   "description": "A set of themes based on trees.",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "categories": [
     "Themes"
   ],
@@ -81,7 +81,7 @@
         }
       },
       {
-        "id": "oak.keywords.semi",
+        "id": "oak.parameters",
         "description": "Function params, colorful punctuation.",
         "defaults": {
           "dark": "#49b4be",
@@ -111,9 +111,18 @@
         "id": "oak.variables",
         "description": "Assignable stuff.",
         "defaults": {
-          "dark": "#8d6e46",
-          "light": "#8a671e",
-          "highContrast": "#8a671e"
+          "dark": "#a58152",
+          "light": "#9e6f32",
+          "highContrast": "#9e6f32"
+        }
+      },
+      {
+        "id": "oak.constants",
+        "description": "Assignable stuff.",
+        "defaults": {
+          "dark": "#ad9e8b",
+          "light": "#978266",
+          "highContrast": "#978266"
         }
       },
       {
@@ -138,7 +147,7 @@
         "id": "oak.punctuation.light",
         "description": "Boilerplate syntax.",
         "defaults": {
-          "dark": "#707070",
+          "dark": "#C0C0C0",
           "light": "#A0A0A0",
           "highContrast": "#A0A0A0"
         }
