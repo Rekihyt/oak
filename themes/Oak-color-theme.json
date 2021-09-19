@@ -48,8 +48,14 @@
     {
       "name": "Keywords",
       "scope": [
-        "constant.language",
-        "keyword.operator.comparison.scala",
+        "constant.language.c",
+        "constant.language.cs",
+        "constant.language.false.cpp",
+        "constant.language.java",
+        "constant.language.kotlin",
+        "constant.language.scala",
+        "constant.language.true.cpp",
+        "entity.name.tag",
         "keyword",
         "meta.declaration.adt.idris",
         "meta.property-name.css",
@@ -70,8 +76,11 @@
         "storage.type.data.purescript",
         "storage.type.function",
         "storage.type.js",
+        "storage.type.kotlin",
         "storage.type.module.rust",
         "storage.type.rust",
+        "storage.type.struct",
+        "storage.type.template",
         "support.constant.attribute",
         "support.constant.unit",
         "support.type.property-name"
@@ -89,9 +98,17 @@
         "keyword.operator.arrow",
         "keyword.operator.borrow.and.rust",
         "keyword.operator.c",
+        "keyword.operator.comparison.kotlin",
+        "keyword.operator.comparison.scala",
+        "keyword.operator.comparison.java",
+        "keyword.operator.comparison.cs",
+        "keyword.operator.relational.cs",
         "keyword.operator.cpp",
         "keyword.operator.dereference.rust",
+        "keyword.operator.math",
+        "keyword.operator.nim",
         "keyword.operator.other.elixir",
+        "keyword.operator.pipe",
         "keyword.operator.question",
         "keyword.operator.range",
         "keyword.operator.ternary",
@@ -119,6 +136,7 @@
         "constant.other",
         "constant.type-constructor.elm",
         "constant.unit.elm",
+        "entity.name.tag.purescript",
         "entity",
         "keyword.constant.default",
         "keyword.type",
@@ -144,6 +162,7 @@
     {
       "name": "Variables",
       "scope": [
+        "entity.name.variable",
         "meta.quasi-quotation.haskell",
         "meta.template.expression.nim",
         "source.groovy.embedded",
@@ -165,13 +184,14 @@
         "entity.name.function-call.elixir",
         "entity.name.function",
         "entity.name.quasi-quoter",
-        "entity.other.attribute-name",
+        "entity.name.variable.property",
         "keyword.operator.arithmetic",
         "keyword.operator.comparison",
         "keyword.operator.function.infix",
         "keyword.operator.haskell",
         "keyword.operator.infix",
         "keyword.operator.logical.scala",
+        "keyword.operator.math",
         "keyword.operator.prefix.minus.haskell",
         "keyword.operator.prefix.minus.idris",
         "keyword.operator.purescript",
@@ -194,6 +214,7 @@
         "constant.other.placeholder",
         "constant.other",
         "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name",
         "keyword.operator.prefix.hash.haskell",
         "meta.attribute.href.hamlet",
         "meta.block",
@@ -215,10 +236,12 @@
     {
       "name": "Parameters",
       "scope": [
-        "entity.other.attribute-name.css",
+        "entity.name.variable.parameter",
         "parameter.variable",
         "punctuation.separator.module-function",
+        "variable.language.scala",
         "variable.language.self",
+        "variable.language.this",
         "variable.parameter"
       ],
       "settings": {
@@ -233,8 +256,8 @@
         "entity.name.operator.cpp",
         "entity.other.attribute-name.pseudo-element.css",
         "keyword.operator.access.dot",
+        "keyword.operator.declaration",
         "keyword.operator.key-value",
-        "keyword.operator.namespace",
         "keyword.operator.namespace",
         "keyword.other.double-colon.haskell",
         "meta.brace.round.js",
@@ -246,8 +269,8 @@
         "meta.declaration.adt.idris",
         "meta.declaration.exports.purescript",
         "meta.embedded.block",
-        "meta.function.definition",
         "meta.import.purescript",
+        "meta.import.selector",
         "punctuation.definition.entity",
         "punctuation.separator.annotation.python",
         "punctuation.separator.dot-access",
@@ -262,20 +285,6 @@
       }
     },
     {
-      "name": "Light Punctuation",
-      "scope": [
-        "constant.character.escape",
-        "keyword.other.unit.hexadecimal",
-        "punctuation.definition.tag.html",
-        "string.quoted.byte.raw"
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#A0A0A0"
-      }
-    },
-
-    {
       "name": "Colorful Punctuation",
       "scope": [
         "keyword.operator.double-colon",
@@ -287,7 +296,6 @@
         "meta.type-signature.purescript",
         "punctuation.brace.haskell",
         "punctuation.brace.idris",
-        "punctuation.definition.tag",
         "punctuation.elm",
         "punctuation.other.rust",
         "punctuation.paren.haskell",
@@ -309,11 +317,13 @@
       "scope": [
         "constant.character.format",
         "entity.name.import",
+        "entity.name.module",
         "entity.name.namespace",
         "entity.name.package",
         "entity.name.type.class.module.definition.erlang",
         "entity.name.type.class.module",
         "entity.name.type.module",
+        "entity.name.type.namespace",
         "keyword.control.directive",
         "keyword.control.export",
         "meta.attribute.rust",
@@ -326,7 +336,9 @@
         "meta.scope.target.makefile",
         "meta.use",
         "punctuation.definition.heading",
+        "storage.modifier.import.java",
         "storage.type.annotation",
+        "storage.type.class.racket",
         "string.other.option.fish",
         "support.function.builtin.zig",
         "support.module.elm",
@@ -338,6 +350,20 @@
       "settings": {
         "fontStyle": "",
         "foreground": "#9779df"
+      }
+    },
+    {
+      "name": "Light Punctuation",
+      "scope": [
+        "constant.character.escape",
+        "keyword.other.unit.hexadecimal",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "string.quoted.byte.raw"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#A0A0A0"
       }
     }
   ],
