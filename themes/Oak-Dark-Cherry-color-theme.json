@@ -8,16 +8,26 @@
       "scope": [
         "keyword.declaration.volatile.scala",
         "keyword.operator.address",
+        "keyword.operator.arithmetic",
         "keyword.operator.arrow",
         "keyword.operator.borrow.and.rust",
+        "keyword.operator.c",
+        "keyword.operator.cpp",
         "keyword.operator.dereference.rust",
         "keyword.operator.other.elixir",
         "keyword.operator.question",
+        "keyword.operator.range",
+        "keyword.operator.ternary",
         "meta.expression.receive",
+        "punctuation.definition.function.pointer",
         "punctuation.definition.lifetime.rust",
         "punctuation.definition.variable.shell",
         "punctuation.separator.clause-head-body",
-        "storage.type.function.arrow.java"
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.slice",
+        "punctuation.vararg-ellipses",
+        "storage.modifier.pointer",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#c26f9b",
