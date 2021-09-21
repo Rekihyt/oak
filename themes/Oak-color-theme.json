@@ -7,21 +7,32 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#579C89"
+        "foreground": "#579c89"
       }
     },
     {
-      "name": "Documentation Comments and Strings",
+      "name": "Doc Comments",
       "scope": [
+        "comment.block",
         "comment.block.documentation",
         "comment.documentation",
         "comment.line.documentation",
         "comment.line.double-dash.documentation",
         "comment.line.number-sign.doc-comment",
+        "string.quoted.docstring"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#579c89"
+        // 84a057
+      }
+    },
+    {
+      "name": "Literals",
+      "scope": [
         "constant.character",
         "constant.numeric",
         "constant.other.color.rgb-value.hex.css",
-        "entity.name.lifetime",
         "entity.name.section.markdown",
         "markup.inline.raw.string.markdown",
         "meta.embedded.block.whamlet",
@@ -39,6 +50,14 @@
       }
     },
     {
+      "name": "Constant Literals",
+      "scope": ["constant.language"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#cfa957"
+      }
+    },
+    {
       "name": "Invalid - Illegal",
       "scope": "invalid.illegal",
       "settings": {
@@ -48,19 +67,13 @@
     {
       "name": "Keywords",
       "scope": [
-        "constant.language.c",
-        "constant.language.cs",
-        "constant.language.false.cpp",
-        "constant.language.java",
-        "constant.language.kotlin",
-        "constant.language.scala",
-        "constant.language.true.cpp",
         "entity.name.tag",
         "keyword",
+        "keyword.operator.logical.c",
+        "keyword.operator.logical.cpp",
         "meta.declaration.adt.idris",
         "meta.property-name.css",
         "meta.scope.recipe.makefile",
-        "punctuation.backtick.haskell",
         "punctuation.bracket.haskell",
         "punctuation.bracket.idris",
         "punctuation.definition.decorator",
@@ -94,25 +107,30 @@
       "scope": [
         "keyword.declaration.volatile.scala",
         "keyword.operator.address",
-        "keyword.operator.arithmetic",
         "keyword.operator.arrow",
+        "keyword.operator.big-arrow",
         "keyword.operator.borrow.and.rust",
         "keyword.operator.c",
-        "keyword.operator.comparison.kotlin",
-        "keyword.operator.comparison.scala",
-        "keyword.operator.comparison.java",
         "keyword.operator.comparison.cs",
-        "keyword.operator.relational.cs",
+        "keyword.operator.comparison.java",
+        "keyword.operator.comparison.kotlin",
+        "keyword.operator.comparison.go",
+        "keyword.operator.comparison.scala",
         "keyword.operator.cpp",
         "keyword.operator.dereference.rust",
+        "keyword.operator.logical",
         "keyword.operator.math",
         "keyword.operator.nim",
         "keyword.operator.other.elixir",
-        "keyword.operator.pipe",
         "keyword.operator.question",
         "keyword.operator.range",
+        "keyword.operator.relational.cs",
         "keyword.operator.ternary",
+        "keyword.operator.type.record",
+        "keyword.other.arrow",
+        "keyword.other.big-arrow",
         "meta.expression.receive",
+        "punctuation.backtick.haskell",
         "punctuation.definition.function.pointer",
         "punctuation.definition.lifetime.rust",
         "punctuation.definition.variable.shell",
@@ -132,11 +150,9 @@
       "name": "Types",
       "scope": [
         "class",
-        "constant.language",
         "constant.other",
         "constant.type-constructor.elm",
         "constant.unit.elm",
-        "entity.name.tag.purescript",
         "entity",
         "keyword.constant.default",
         "keyword.type",
@@ -150,13 +166,37 @@
         "storage.type",
         "support.class",
         "support.constant.core.rust",
-        "support.constant.unit.haskell",
         "support.type",
         "variable.other.enummember.zig",
         "variable.type.elm"
       ],
       "settings": {
         "foreground": "#09c284"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "constant.other.haskell",
+        "entity.name.function-call.elixir",
+        "entity.name.function",
+        "entity.name.quasi-quoter",
+        "entity.name.tag.purescript",
+        "entity.name.variable.property",
+        "keyword.operator.function.infix",
+        "keyword.operator.haskell",
+        "keyword.operator.infix",
+        "keyword.operator.prefix.minus.haskell",
+        "keyword.operator.prefix.minus.idris",
+        "meta.function-call.generic",
+        "meta.method-call",
+        "support.constant.property-value.css",
+        "support.function",
+        "support.variable"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#30B040"
       }
     },
     {
@@ -175,36 +215,6 @@
       "settings": {
         "foreground": "#9e6f32",
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": [
-        "constant.language.unit.haskell",
-        "entity.name.function-call.elixir",
-        "entity.name.function",
-        "entity.name.quasi-quoter",
-        "entity.name.variable.property",
-        "keyword.operator.arithmetic",
-        "keyword.operator.comparison",
-        "keyword.operator.function.infix",
-        "keyword.operator.haskell",
-        "keyword.operator.infix",
-        "keyword.operator.logical.scala",
-        "keyword.operator.math",
-        "keyword.operator.prefix.minus.haskell",
-        "keyword.operator.prefix.minus.idris",
-        "keyword.operator.purescript",
-        "meta.function-call.generic.python",
-        "meta.function-call.generic",
-        "meta.method-call",
-        "support.constant.property-value.css",
-        "support.function",
-        "support.variable"
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#30B040"
       }
     },
     {
@@ -287,13 +297,13 @@
     {
       "name": "Colorful Punctuation",
       "scope": [
+        "meta.record-field.type-declaration.purescript",
         "keyword.operator.double-colon",
         "keyword.operator.list.shell",
         "keyword.operator.return-type.rust",
-        "keyword.operator.type.record",
         "keyword.other.double-colon.purescript",
         "meta.declaration.typeclass.purescript",
-        "meta.type-signature.purescript",
+        "meta.function.type-declaration.purescript",
         "punctuation.brace.haskell",
         "punctuation.brace.idris",
         "punctuation.elm",
@@ -432,7 +442,6 @@
     "editor.hoverHighlightBackground": "#a0bedf30",
     "list.dropBackground": "#D0D0D0",
     "settings.numberInputBackground": "#D0D0D0",
-    // "tab.activeBackground": "#D0D0D0",
     "gitDecoration.deletedResourceForeground": "#cf8282",
 
     "list.focusBackground": "#00904020",
@@ -442,17 +451,13 @@
     "activityBar.inactiveForeground": "#9779dfC0",
     "activityBar.background": "#EDEDF5",
     "activityBar.foreground": "#9779df",
-    // "tab.activeForeground": "#009040",
-    // "tab.hoverForeground": "#30B040",
-    // "tab.inactiveForeground": "#cfa957",
-    // "tab.fore"
 
     "editorGutter.modifiedBackground": "#cfa957",
     "sideBar.dropBackground": "#D0D0D0",
 
     "statusBar.background": "#5086ce",
     "statusBar.noFolderBackground": "#9779df",
-    // "welcom"
+
     "statusBar.debuggingBackground": "#cfa957",
     "statusBarItem.remoteBackground": "#9779df",
     "focusBorder": "#A6B39B",
