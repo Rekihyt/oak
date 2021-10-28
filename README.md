@@ -26,6 +26,7 @@ Colors should have the same semantics across languages marked as supported, with
 - Zig
 - Graphviz
 - Erlang/Elixir
+- Mips
 
 ---
 
