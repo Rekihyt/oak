@@ -64,6 +64,8 @@
         "storage.type.template",
         "support.constant.attribute",
         "support.constant.unit",
+        "support.function.arithmetic.mips",
+        "support.function.registers.mips",
         "support.type.property-name"
       ],
       "settings": {
@@ -165,6 +167,7 @@
       "name": "Constants",
       "scope": [
         "constant.character.format.placeholder.other",
+        "constant.language.import-export-all",
         "constant.other.placeholder",
         "constant.other",
         "entity.other.attribute-name.class.css",

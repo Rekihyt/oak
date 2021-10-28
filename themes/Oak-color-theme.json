@@ -97,6 +97,8 @@
         "storage.type.template",
         "support.constant.attribute",
         "support.constant.unit",
+        "support.function.arithmetic.mips",
+        "support.function.registers.mips",
         "support.type.property-name"
       ],
       "settings": {
@@ -198,6 +200,7 @@
         "entity.name.function.idris",
         "entity.name.function.java",
         "entity.name.function.js",
+        "entity.name.function.ts",
         "entity.name.function.kotlin",
         "entity.name.function.lua",
         "entity.name.function.macro.rust",
@@ -265,6 +268,7 @@
       "name": "Constants",
       "scope": [
         "constant.character.format.placeholder.other",
+        "constant.language.import-export-all",
         "constant.other.placeholder",
         "constant.other",
         "entity.other.attribute-name.class.css",
@@ -368,6 +372,7 @@
       "name": "Meta",
       "scope": [
         "constant.character.format",
+        "constant.language.import-export-all",
         "entity.name.import",
         "entity.name.module",
         "entity.name.namespace",
@@ -377,7 +382,6 @@
         "entity.name.type.module",
         "entity.name.type.namespace",
         "keyword.control.directive",
-        "keyword.control.export",
         "meta.attribute.rust",
         "meta.directive.module.erlang",
         "meta.foreign.data",
