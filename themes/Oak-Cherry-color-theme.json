@@ -19,6 +19,7 @@
         "keyword.operator.c",
         "keyword.operator.cpp",
         "keyword.operator.dereference.rust",
+        "keyword.operator.infix.tight",
         "keyword.operator.nim",
         "keyword.operator.other.elixir",
         "keyword.operator.question",
