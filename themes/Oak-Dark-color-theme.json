@@ -8,6 +8,7 @@
       "scope": [
         "constant.character",
         "constant.numeric",
+        "keyword.constant.bool",
         "keyword.constant.default",
         "constant.other.color.rgb-value.hex.css",
         "entity.name.section.markdown",
@@ -65,6 +66,7 @@
         "support.constant.attribute",
         "support.constant.unit",
         "support.function.arithmetic.mips",
+        "support.function.mips",
         "support.function.registers.mips",
         "support.type.property-name"
       ],
@@ -138,7 +140,6 @@
         "support.class",
         "support.constant.core.rust",
         "support.type",
-        "variable.other.enummember.zig",
         "variable.language.elixir",
         "constant.language.symbol.elixir",
         "variable.type.elm"
@@ -218,12 +219,13 @@
         "meta.import.selector",
         "punctuation",
         "rainbow1",
+        "source.zig",
         "support.variable.magic.python",
         "text.html.markdown"
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFFFFF"
+        "foreground": "#e8e8e8"
       }
     },
     {
@@ -361,7 +363,7 @@
     "editor.findMatchHighlightBackground": "#ffe1a240",
     "editor.findRangeHighlightBackground": "#ffe1a240",
     "activityBarBadge.background": "#458FDD",
-    "editor.foreground": "#ffffff",
+    "editor.foreground": "#e0e0e0",
     "editorIndentGuide.activeBackground": "#909090",
     "editorIndentGuide.background": "#404040",
     "input.placeholderForeground": "#EEEEEE",
