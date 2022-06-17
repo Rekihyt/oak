@@ -208,8 +208,6 @@
         "keyword.other.double-colon.haskell",
         "meta.brace.round.js",
         "meta.brace",
-        "meta.bracket.square.access.c",
-        "meta.bracket.square.access.cpp",
         "meta.bracket",
         "meta.declaration.adt.haskell",
         "meta.declaration.adt.idris",
@@ -220,6 +218,7 @@
         "punctuation",
         "rainbow1",
         "source.zig",
+        "storage.modifier.array",
         "support.variable.magic.python",
         "text.html.markdown"
       ],
